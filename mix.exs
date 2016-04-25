@@ -32,7 +32,7 @@ defmodule MixRunTest.Mixfile do
   end
   defp aliases do
     [
-      migrate: ["run -e 'IO.puts(\"One\")'", "run -e 'IO.puts(\"Two\")'"]
+      test_run: ["run -e 'IO.puts(\"One\")'", "run -e 'IO.puts(\"Two\")'"]
     ]
   end
 end
